@@ -1,0 +1,7 @@
+# Copy this file to cams.txt and put your camera URL(s) there:
+#   cp cams.example.txt cams.txt
+# cams.txt is git-ignored, so camera addresses and credentials stay local.
+#
+# One RTSP URL per line. A single entry is reused for all N cameras.
+# Lines starting with # and blank lines are ignored.
+# rtsp://user:pass@host:554/stream

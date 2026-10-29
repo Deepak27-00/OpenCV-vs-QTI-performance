@@ -1,0 +1,29 @@
+# Camera URLs (may contain credentials) -- only cams.example.txt is committed
+rtsp_video_loop/cams.txt
+cams.txt
+
+# Benchmark output
+rtsp_video_loop/vlogs/
+vlogs/
+*.jsonl
+*.log
+report.txt
+report.csv
+
+# Snapshots written by diag_qti.py / rtsp_videoloop_opencv.py --snapshot
+snapshot*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
